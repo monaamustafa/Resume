@@ -108,8 +108,17 @@ font-family: 'WindSong', cursive;
     /* color:  rgba(0,0,0,.55); */
 }
 
-
-
+.home .more{
+    margin-top: 30px;
+}
+.home .more a{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 1px solid  var(--mainColor) ;
+    background-color: var(--mainColor);
+    color: aliceblue;
+}
 
 /* About */
 .About{
