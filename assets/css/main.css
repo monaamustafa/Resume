@@ -1,0 +1,142 @@
+/* 
+font-family: 'Allison', cursive;
+font-family: 'Anton', sans-serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'WindSong', cursive;
+ */
+
+:root{
+    --mainColor:#fc81a3;
+    --mainFont: 'Anton', sans-serif;
+    --lightBlack: rgba(0,0,0,.75);
+
+}
+body{
+    color: var(--lightBlack);
+font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+span{color: var(--mainColor);}
+/* ganerller  */
+.mainsection {
+    margin-top: 50;
+    /* padding: 80px 0; */
+}
+.sectionHeader{
+    text-align: center;
+    font-weight: 900;
+    font-size: 90px;
+    font-family: var(--mainFont);
+}
+hr {
+    border: 0;
+    width: 20%;
+    margin: 0 auto;
+    background-color: var(--mainColor);
+}
+/* Navbar */
+.navbar-brand{
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    font-size: 38px;
+font-family: 'WindSong', cursive;
+    letter-spacing: 2px;
+}
+.navbar-brand::after{
+    content: " 🔥 ";
+    font-size: 20px;
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+
+    text-shadow: 0 0 5px var(--mainColor), 0 0 5px var(--mainColor);
+    color: var(--whiteColor);
+    font-size: 40px;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    font-family: var(--mainFont);
+    color: var(--mainColor);
+    font-weight: 700;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: var(--mainFont);
+    font-weight: 700;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    font-size: 25px;
+    color: var(--whiteColor);
+    text-shadow: 0 0 5px var(--mainColor), 0 0 5px var(--mainColor);
+
+}
+
+/* Home */
+.home {}
+
+.home-details {
+    padding-top: 20vh;
+    text-align: center;
+}
+
+.home-details h1 {
+/* color:  rgba(0,0,0,.55); */
+font-family: 'WindSong', cursive;
+    font-size: 30vh;
+    text-shadow: 0 0 1px var(--mainColor), 0 0 1px var(--mainColor);
+    
+}
+.home-details h3{
+    font-size: 8vh;
+    /* color:  rgba(0,0,0,.55); */
+}
+
+
+
+
+/* About */
+.About{
+    /* text-align: center; */
+    color: var(--lightBlack);
+}
+.About .sectionHeader{
+    color: var(--mainColor);
+}
+.AboutDetails{
+    padding-top: 80px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.About .links a{
+    margin-right: 120px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-color: var(--mainColor);
+    border-width: 1px;
+    border-style: solid;
+}
+.About .links a.download{
+    background-color: var(--mainColor);
+    color: aliceblue;
+}
+.About .links a.contact{
+    color: var(--mainColor);
+}
