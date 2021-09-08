@@ -157,7 +157,15 @@ font-family: 'WindSong', cursive;
 
 
 
+@media only screen and (max-width: 600px){
+    .About .links a{
+        margin-bottom: 5%;
+    }
+    .AboutDetails{
+    width: 90%;
+    }
 
+}
 
 
 
