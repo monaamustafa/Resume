@@ -200,7 +200,8 @@ font-family: 'WindSong', cursive;
 
 ***************************************************************/
 footer{
-    background-color:rgba(71, 71, 71, 0.973);
+    background-color:343a40;
+    /* background-color:rgba(71, 71, 71, 0.973); */
 margin:0;
 }
 
